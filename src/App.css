@@ -1,0 +1,49 @@
+
+*{
+  scroll-behavior: smooth;
+}
+
+
+.app{
+  min-height: 100vh;
+  background-color: #D8D6D6;
+  color: white;
+  padding-top:  130px ;
+  padding-bottom: 70px;
+
+}
+
+@media(max-width:700px){
+  .app{
+    padding-top: 70px;
+  }
+}
+
+.main {
+  height: 75vh;
+  width: 75vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(39, 119, 151);
+  font-size: 40px;
+}
+
+.pagetitle{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif,'montserrat';
+  font-size: 4vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: black
+  ;
+}
+
+@media(max-width :1000px){
+  .pagetitle{ 
+    font-size: 8.4vw;
+
+  }
+}

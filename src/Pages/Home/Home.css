@@ -1,0 +1,11 @@
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sortbutton{
+    margin-left: 50%;
+    text-transform: uppercase;
+}
+

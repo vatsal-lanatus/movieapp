@@ -1,0 +1,30 @@
+.edit{
+    display:inline;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    color: #000;
+    
+}
+
+.inputfield{
+    width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #1876D1;
+  border-radius: 4px;
+}
+.button{
+    display: flex;
+    width: 50px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid #1876D1;
+    align-items: center;
+    border-radius: 4px;
+    
+ 
+}

@@ -1,0 +1,24 @@
+.sortbutton{
+   
+        background:  #000;;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 50%;
+        border-radius: 10px;
+        height: 50px;
+    
+
+}
+
+.home{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+}
