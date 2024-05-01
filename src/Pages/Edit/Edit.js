@@ -23,14 +23,19 @@ const MovieList = () => {
   };
 
   const columns = [
-    { field: "title", headerName: "Title", width: 200, editable: false ,flex :1 },
+    {
+      field: "title",
+      headerName: "Title",
+      width: 200,
+      editable: false,
+      flex: 1,
+    },
     {
       field: "rating",
       headerName: "Rating",
       type: "number",
       width: 130,
       editable: true,
-      
     },
     {
       field: "releaseDate",
